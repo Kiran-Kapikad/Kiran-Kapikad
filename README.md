@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Kiran Kumar kapikad</h1>
+<h1 align="center">Hi 👋, I'm Kiran Kumar Kapikad</h1>
 <h3 align="center">A passionate Software Tester</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kiran-kapikad&label=Profile%20views&color=0e75b6&style=flat" alt="kiran-kapikad" /> </p>
