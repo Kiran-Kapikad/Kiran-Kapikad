@@ -18,17 +18,17 @@
 </p>
 
 - 🔭 I’m currently working on a **Confidential Project for DRDO**
-- 🌱 I’m currently learning **C++ and Python**
+- 🌱 I’m currently learning **Automation Testing with JAVA**
 - 💬 Ask me about **Verification and Validation in Avionics, DO-178B standards, and GUI development using Qt**
 - 📫 How to reach me: **kirankumark4894@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://www.linkedin.com/in/kiran-kumar-kapikad/" target="blank">
+  <a href="https://www.linkedin.com/in/kiran-kumar-kapikad/" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
-  <a href="https://github.com/Kiran-Kapikad" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github-alt.svg" alt="GitHub" height="30" width="40" />
+  </a>&nbsp;&nbsp;
+  <a href="https://github.com/Kiran-Kapikad" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" height="30" width="40" />
   </a>
 </p>
 
