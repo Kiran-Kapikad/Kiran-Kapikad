@@ -64,10 +64,9 @@
   <a href="https://www.selenium.dev" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/>
   </a>
-  <a href="https://ldra.com/" target="_blank" rel="noreferrer" style="background-color: purple; color: orange; padding: 5px; border-radius: 5px;">
-    LDRA
-  </a>
+  <span style="background-color: purple; color: orange; padding: 5px; border-radius: 5px;">LDRA</span>
 </p>
+
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiran-kapikad&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
