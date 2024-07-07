@@ -65,31 +65,6 @@
 
 ---
 
-## 🛠️ My Skills
-
-### Programming Languages
-![C](https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white)
-
-### Tools & Technologies
-![LDRA](https://img.shields.io/badge/-LDRA-000000?style=for-the-badge&logo=ldra&logoColor=white)
-![Qt](https://img.shields.io/badge/-Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
-![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=for-the-badge&logo=matlab&logoColor=white)
-![VSCode](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-### Protocols
-![MIL1533](https://img.shields.io/badge/-MIL1533-000000?style=for-the-badge)
-![ARINC429](https://img.shields.io/badge/-ARINC429-000000?style=for-the-badge)
-![RS422](https://img.shields.io/badge/-RS422-000000?style=for-the-badge)
-
----
-
-## 📈 GitHub Stats
-
-![Kiran's GitHub stats](https://github-readme-stats.vercel.app/api?username=kiran-kapikad&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kiran-kapikad&layout=compact&theme=radical)
-
----
-
 ## 🏆 Achievements
 
 - 🥇 Completed Software Testing Masterclass - From Novice to Expert in 2023
@@ -131,8 +106,3 @@ Nov’18 - Sept’19
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kiran-kumar-kapikad/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kirankumark4894@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kiran-kapikad)
-
----
-
-![Footer](https://your-image-url.com/footer.png)
-
