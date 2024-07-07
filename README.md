@@ -60,11 +60,17 @@
   </a>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kiran-kapikad&show_icons=true&locale=en&layout=compact" alt="kiran-kapikad" /></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiran-kapikad&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kiran-kapikad&show_icons=true&locale=en" alt="kiran-kapikad" /></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kiran-kapikad&show_icons=true&line_height=27&count_private=true&hide_border=true&theme=radical" alt="GitHub Stats" />
+</p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kiran-kapikad&" alt="kiran-kapikad" /></p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kiran-kapikad&hide_border=true&theme=radical" alt="GitHub Streak" />
+</p>
 
 ---
 
@@ -109,4 +115,3 @@ Nov’18 - Sept’19
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kiran-kumar-kapikad/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kirankumark4894@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kiran-Kapikad)
-
