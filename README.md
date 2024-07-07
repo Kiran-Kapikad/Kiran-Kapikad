@@ -83,13 +83,11 @@
 *Cadmaxx Solution Private Ltd., Bengaluru*  
 Mar’24 - Present  
 - Prepared planning documents, design documents, verification and certification documents.
-- Conducted manual testing using **LDRA** and system testing.
 
 **Software Engineer**  
 *Processware Systems Pvt. Ltd., Bengaluru*  
 Jan’22 - Feb’24  
 - Prepared planning documents, design documents, verification and certification documents.
-- Conducted manual testing using **LDRA** and system testing.
 
 **Software Engineer**  
 *Ananya Technology Pvt. Ltd., Bengaluru*  
