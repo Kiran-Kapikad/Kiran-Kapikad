@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://www.google.com/search?q=a+man+doing+automation+testing+png&sca_esv=42602296de1b7ad3&rlz=1C1ONGR_enIN1110IN1111&udm=2&biw=1536&bih=695&sxsrf=ADLYWILhhbhC5-4JrKoPC5Z4tOqjTdif-Q%3A1720375136391&ei=YNeKZtTXF5rgseMPjNq-iAQ&ved=0ahUKEwjUh4rnwJWHAxUacGwGHQytD0EQ4dUDCBA&uact=5&oq=a+man+doing+automation+testing+png&gs_lp=Egxnd3Mtd2l6LXNlcnAiImEgbWFuIGRvaW5nIGF1dG9tYXRpb24gdGVzdGluZyBwbmdI5A1QywRY4wtwAXgAkAEAmAFZoAHHAqoBATS4AQPIAQD4AQGYAgCgAgCYAwCIBgGSBwCgB7QB&sclient=gws-wiz-serp#vhid=V4FipO-030wE3M&vssid=mosaic" alt="Boy working on automation testing" height="200" />
+</p>
 <h1 align="center">Hi 👋, I'm Kiran Kumar Kapikad</h1>
 <h3 align="center">A passionate Software Tester and Verification and Validation Engineer</h3>
 
