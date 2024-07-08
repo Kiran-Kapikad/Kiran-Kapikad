@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="https://example.com/path/to/your/image.png" alt="Boy working on automation testing" height="200" />
+</p>
 <h1 align="center">Hi 👋, I'm Kiran Kumar Kapikad</h1>
 <h3 align="center">A passionate Software Tester and Verification and Validation Engineer</h3>
 
