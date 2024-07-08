@@ -50,7 +50,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="qt" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/>
   <!-- Replace with actual LDRA logo once available -->
-  <img src="https://ldra.com/path/to/ldra-logo.png" alt="LDRA" width="40" height="40"/>
+  <img src="https://github.com/Kiran-Kapikad/Kiran-Kapikad/blob/main/iddeXLKZpK_1720456198548.png" alt="LDRA" width="40" height="40"/>
 </p>
 
 ---
