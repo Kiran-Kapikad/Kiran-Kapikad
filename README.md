@@ -31,7 +31,7 @@
 <h3 align="left">About Me:</h3>
 
 - 🔭 I’m currently working on a **Confidential Project for DRDO**
-- 🌱 I’m currently learning **Automation Testing with JAVA**
+- 🌱 I’m currently learning **Automation Testing with Python**
 - 💬 Ask me about **Verification and Validation in Avionics, DO-178B standards, and GUI development using Qt**
 
 ---
