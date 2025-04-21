@@ -15,7 +15,7 @@
 
 - 🛠️ 6+ years of experience in Aerospace domain as a V&V and Software Test Engineer  
 - 📌 Specialized in **Manual/System Testing**, **Black-box Testing**, and **DO-178B/C Compliance**  
-- 💻 Experienced with **LDRA**, **JIRA**, and **Test Documentation**  
+- 💻 Experienced with **LDRA**, **JIRA**, **Test Documentation**, **DataSIMS**, **Qt Creator**  
 - ☁️ Currently upskilling in **AWS Cloud**, **DevOps**, **DevSecOps**, and **Azure Basics**
 
 ---
@@ -23,12 +23,11 @@
 ### 🧠 Tools & Technologies
 
 <p align="left">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="qt" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/>
   <img src="https://github.com/Kiran-Kapikad/Kiran-Kapikad/blob/main/iddeXLKZpK_1720456198548.png" alt="LDRA" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/qtio/qtio-icon.svg" alt="Qt Creator" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg" alt="JIRA" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/amazonaws.svg" alt="AWS" width="40" height="40"/>
+  <img src="https://img.icons8.com/color/48/000000/microsoft-azure.png" alt="Azure" width="40" height="40"/>
 </p>
 
 ---
@@ -43,24 +42,6 @@
 
 - 👨‍💻 **Ananya Technology Pvt Ltd** (Nov 2018 – Jan 2022)  
   • Projects: PDU, ADU, NSU | Manual & system testing using LDRA | UAT involvement
-
----
-
-### 🧪 AWS Testing Simulation (Demo Project Idea)
-
-📦 **Project Name**: EC2-Based Web Application Testing  
-🔹 **Goal**: Simulate a real-world QA scenario of testing a cloud-hosted web app
-
-**📌 Key Tasks**:
-- Launch EC2 instance and deploy a sample web app (HTML or dummy Python app)
-- Test connectivity (SSH, ping, curl)
-- Write test cases for HTTP status, latency, and availability
-- Create a document: *Test Plan for Cloud QA Simulation*
-- Store all assets in a GitHub repo (`aws-manual-testing-demo`)
-
-🛠️ **Tools**: EC2, S3, Security Groups, Manual Testing Methods
-
-📄 *(Note: This is a learning/demo simulation. No production data used)*
 
 ---
 
