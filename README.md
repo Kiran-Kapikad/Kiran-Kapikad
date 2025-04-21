@@ -52,12 +52,10 @@
 - 🥈 Diploma – Government Polytechnic Bantwala, Mangalore
 
 ---
-
 ### 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=kiran-kapikad&show_icons=true&hide_border=true&theme=radical" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiran-kapikad&layout=compact&langs_count=6&hide_border=true&theme=radical" />
 </p>
 
 <p align="center">
