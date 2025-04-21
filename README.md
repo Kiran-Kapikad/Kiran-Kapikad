@@ -22,13 +22,18 @@
 
 ### 🧠 Tools & Technologies
 
-<p align="center">
-  <img src="https://github.com/Kiran-Kapikad/Kiran-Kapikad/blob/main/iddeXLKZpK_1720456198548.png" alt="LDRA" title="LDRA" width="50" height="50" />
-  <img src="https://www.vectorlogo.zone/logos/qtio/qtio-icon.svg" alt="Qt Creator" title="Qt Creator" width="50" height="50" />
-  <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg" alt="JIRA" title="JIRA" width="50" height="50" />
-  <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-amazon-web-services-a-cloud-computing-platform-logo-color-tal-revivo.png" alt="AWS" title="AWS" width="50" height="50" />
-  <img src="https://img.icons8.com/color/48/000000/azure-1.png" alt="Azure" title="Azure" width="50" height="50" />
-</p>
+- **Manual & System Testing**  
+- **Verification & Validation (DO-178B/C)**  
+- **Black-box & Integration Testing**  
+- **Test Plan Creation & Documentation**  
+- **LDRA**, **JIRA**, **DataSIMS**, **Qt Creator**  
+- **SDLC & STLC Process Knowledge**  
+- **Defect Logging & Traceability Matrix**  
+- **AWS (EC2, S3, IAM, VPC)** – *Fundamentals Completed*  
+- **Azure Cloud (Basics)**  
+- **DevOps & DevSecOps Awareness**
+
+---
 
 ### 💼 Work Experience (Summary)
 
@@ -50,6 +55,7 @@
 - 🥈 Diploma – Government Polytechnic Bantwala, Mangalore
 
 ---
+
 ### 📊 GitHub Stats
 
 <p align="center">
