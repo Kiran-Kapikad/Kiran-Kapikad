@@ -22,14 +22,21 @@
 
 ### 🧠 Tools & Technologies
 
-<p align="left">
-  <img src="https://github.com/Kiran-Kapikad/Kiran-Kapikad/blob/main/iddeXLKZpK_1720456198548.png" alt="LDRA" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/qtio/qtio-icon.svg" alt="Qt Creator" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg" alt="JIRA" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/amazonaws.svg" alt="AWS" width="40" height="40"/>
-  <img src="https://img.icons8.com/color/48/000000/microsoft-azure.png" alt="Azure" width="40" height="40"/>
+<p align="center">
+  <img src="https://github.com/Kiran-Kapikad/Kiran-Kapikad/blob/main/iddeXLKZpK_1720456198548.png" alt="LDRA" title="LDRA" width="50" height="50" />
+  <img src="https://www.vectorlogo.zone/logos/qtio/qtio-icon.svg" alt="Qt Creator" title="Qt Creator" width="50" height="50" />
+  <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg" alt="JIRA" title="JIRA" width="50" height="50" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/amazonaws.svg" alt="AWS" title="AWS" width="50" height="50" />
+  <img src="https://img.icons8.com/color/48/000000/microsoft-azure.png" alt="Azure" title="Azure" width="50" height="50" />
 </p>
 
+<p align="center">
+  <b>LDRA</b> &nbsp; | &nbsp;
+  <b>Qt Creator</b> &nbsp; | &nbsp;
+  <b>JIRA</b> &nbsp; | &nbsp;
+  <b>AWS (EC2, S3, IAM, VPC)</b> &nbsp; | &nbsp;
+  <b>Azure (Basics)</b>
+</p>
 ---
 
 ### 💼 Work Experience (Summary)
