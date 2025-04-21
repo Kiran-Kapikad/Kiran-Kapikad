@@ -30,15 +30,6 @@
   <img src="https://img.icons8.com/color/48/000000/microsoft-azure.png" alt="Azure" title="Azure" width="50" height="50" />
 </p>
 
-<p align="center">
-  <b>LDRA</b> &nbsp; | &nbsp;
-  <b>Qt Creator</b> &nbsp; | &nbsp;
-  <b>JIRA</b> &nbsp; | &nbsp;
-  <b>AWS (EC2, S3, IAM, VPC)</b> &nbsp; | &nbsp;
-  <b>Azure (Basics)</b>
-</p>
----
-
 ### 💼 Work Experience (Summary)
 
 - 👨‍💻 **Cadmaxx Solution Pvt Ltd** (Mar 2024 – Present)  
