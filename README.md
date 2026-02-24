@@ -12,14 +12,5 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=Kiran-Kapikad&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Kiran-Kapikad&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## GitHub Commits:
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kiran-Kapikad/Kiran-Kapikad/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kiran-Kapikad/Kiran-Kapikad/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Kiran-Kapikad/Kiran-Kapikad/output/pacman-contribution-graph.svg">
-</picture>
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Kiran-Kapikad&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
 
