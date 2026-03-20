@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 18
 
-      - run: npm install node-fetch
+      - run: npm install node-fetch@2
 
       - name: Generate SVG
         env:
