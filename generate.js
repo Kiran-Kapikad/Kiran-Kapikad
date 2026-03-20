@@ -46,50 +46,84 @@ function getColor(c) {
   const size = 12;
   const gap = 4;
 
-  let grid = "";
+  let grid = [];
+  let rects = "";
 
+  // Build grid + store weights
   weeks.forEach((week, x) => {
     week.contributionDays.forEach((day, y) => {
-      grid += `<rect x="${x*(size+gap)}" y="${y*(size+gap)}" width="${size}" height="${size}" fill="${getColor(day.contributionCount)}"/>`;
+      const value = day.contributionCount;
+      grid.push({ x, y, value });
+
+      rects += `<rect x="${x*(size+gap)}" y="${y*(size+gap)}"
+        width="${size}" height="${size}"
+        fill="${getColor(value)}"/>`;
     });
   });
 
-  // Maze path (zig-zag like screenshot)
-  let path = "M0 40";
-  for (let i = 0; i < 50; i++) {
-    const x = i * 16;
-    const y = (i % 2 === 0) ? 40 : 100;
-    path += ` L${x} ${y}`;
+  // 🔥 Sort hotspots first
+  grid.sort((a, b) => b.value - a.value);
+
+  // Build path prioritizing high contribution cells
+  let path = `M ${grid[0].x*16} ${grid[0].y*16}`;
+
+  grid.slice(1, 120).forEach(p => {
+    path += ` L ${p.x*16} ${p.y*16}`;
+  });
+
+  // 🎯 Pacman shape (arc with mouth animation)
+  const pacman = `
+  <path fill="yellow">
+    <animate attributeName="d" dur="0.4s" repeatCount="indefinite"
+      values="
+      M0,-8 A8,8 0 1,1 0,8 L0,0 Z;
+      M2,-6 A8,8 0 1,1 2,6 L0,0 Z;
+      M0,-8 A8,8 0 1,1 0,8 L0,0 Z
+      " />
+    <animateMotion dur="12s" repeatCount="indefinite" path="${path}" />
+  </path>
+  `;
+
+  // 👻 Ghost with eye animation
+  function ghost(color, delay) {
+    return `
+    <g>
+      <circle r="8" fill="${color}">
+        <animateMotion dur="12s" repeatCount="indefinite"
+          path="${path}" begin="${delay}s"/>
+      </circle>
+
+      <!-- Eyes -->
+      <circle r="2" fill="white" cx="-2" cy="-2">
+        <animate attributeName="cx" values="-2;0;-2" dur="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="2" fill="white" cx="2" cy="-2">
+        <animate attributeName="cx" values="2;4;2" dur="1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    `;
   }
 
   const svg = `
 <svg width="1000" height="200" xmlns="http://www.w3.org/2000/svg">
+
   <rect width="100%" height="100%" fill="#0d1117"/>
 
+  <!-- Contribution grid -->
   <g transform="translate(20,20)">
-    ${grid}
+    ${rects}
   </g>
 
-  <!-- Maze -->
-  <path d="${path}" stroke="white" stroke-width="2" fill="none"/>
+  <!-- Maze path -->
+  <path d="${path}" stroke="#ffffff22" fill="none"/>
 
   <!-- Pacman -->
-  <circle r="8" fill="yellow">
-    <animateMotion dur="12s" repeatCount="indefinite" path="${path}" />
-  </circle>
+  ${pacman}
 
   <!-- Ghosts -->
-  <circle r="8" fill="red">
-    <animateMotion dur="12s" repeatCount="indefinite" path="${path}" begin="2s"/>
-  </circle>
-
-  <circle r="8" fill="cyan">
-    <animateMotion dur="12s" repeatCount="indefinite" path="${path}" begin="4s"/>
-  </circle>
-
-  <circle r="8" fill="pink">
-    <animateMotion dur="12s" repeatCount="indefinite" path="${path}" begin="6s"/>
-  </circle>
+  ${ghost("red", 2)}
+  ${ghost("cyan", 4)}
+  ${ghost("pink", 6)}
 
 </svg>
 `;
