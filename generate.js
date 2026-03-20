@@ -62,14 +62,29 @@ function getColor(c) {
   });
 
   // 🔥 Sort hotspots first
-  grid.sort((a, b) => b.value - a.value);
+  const cols = weeks.length;
+const rows = 7;
 
-  // Build path prioritizing high contribution cells
-  let path = `M ${grid[0].x*16} ${grid[0].y*16}`;
+let path = "";
 
-  grid.slice(1, 120).forEach(p => {
-    path += ` L ${p.x*16} ${p.y*16}`;
-  });
+// Build proper snake path (maze-like)
+for (let y = 0; y < rows; y++) {
+  if (y % 2 === 0) {
+    // left → right
+    for (let x = 0; x < cols; x++) {
+      const px = x * (size + gap);
+      const py = y * (size + gap);
+      path += (path === "" ? "M" : " L") + ` ${px} ${py}`;
+    }
+  } else {
+    // right → left
+    for (let x = cols - 1; x >= 0; x--) {
+      const px = x * (size + gap);
+      const py = y * (size + gap);
+      path += ` L ${px} ${py}`;
+    }
+  }
+}
 
   // 🎯 Pacman shape (arc with mouth animation)
   const pacman = `
