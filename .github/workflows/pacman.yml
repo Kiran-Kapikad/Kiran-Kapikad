@@ -1,4 +1,4 @@
-name: Generate Pacman Contribution Graph
+name: Generate Pacman Graph
 
 on:
   schedule:
@@ -18,12 +18,14 @@ jobs:
         with:
           node-version: 18
 
-      - name: Generate Pacman Graph
+      - run: npm install node-fetch
+
+      - name: Generate SVG
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node generate.js
 
-      - name: Deploy to output branch
+      - name: Push to output
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
