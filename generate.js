@@ -1,4 +1,5 @@
 const fs = require("fs");
+const fetch = require("node-fetch");
 
 const username = "Kiran-Kapikad";
 
@@ -34,10 +35,10 @@ async function getData() {
 
 function getColor(c) {
   if (c === 0) return "#161b22";
-  if (c < 3) return "#0e4429";
-  if (c < 6) return "#006d32";
-  if (c < 10) return "#26a641";
-  return "#39d353";
+  if (c < 3) return "#0ea5e9";
+  if (c < 6) return "#38bdf8";
+  if (c < 10) return "#22d3ee";
+  return "#67e8f9";
 }
 
 (async () => {
@@ -46,99 +47,84 @@ function getColor(c) {
   const size = 12;
   const gap = 4;
 
-  let grid = [];
   let rects = "";
 
-  // Build grid + store weights
   weeks.forEach((week, x) => {
     week.contributionDays.forEach((day, y) => {
-      const value = day.contributionCount;
-      grid.push({ x, y, value });
-
       rects += `<rect x="${x*(size+gap)}" y="${y*(size+gap)}"
         width="${size}" height="${size}"
-        fill="${getColor(value)}"/>`;
+        fill="${getColor(day.contributionCount)}"/>`;
     });
   });
 
-  // 🔥 Sort hotspots first
-  const cols = weeks.length;
-const rows = 7;
+  // 🔵 FIXED MAZE WALLS (like your image)
+  const maze = `
+    M 20 40 H 300
+    M 300 40 V 80
+    M 300 80 H 600
+    M 600 80 V 40
+    M 600 40 H 900
 
-let path = "";
-
-// Build proper snake path (maze-like)
-for (let y = 0; y < rows; y++) {
-  if (y % 2 === 0) {
-    // left → right
-    for (let x = 0; x < cols; x++) {
-      const px = x * (size + gap);
-      const py = y * (size + gap);
-      path += (path === "" ? "M" : " L") + ` ${px} ${py}`;
-    }
-  } else {
-    // right → left
-    for (let x = cols - 1; x >= 0; x--) {
-      const px = x * (size + gap);
-      const py = y * (size + gap);
-      path += ` L ${px} ${py}`;
-    }
-  }
-}
-
-  // 🎯 Pacman shape (arc with mouth animation)
-  const pacman = `
-  <path fill="yellow">
-    <animate attributeName="d" dur="0.4s" repeatCount="indefinite"
-      values="
-      M0,-8 A8,8 0 1,1 0,8 L0,0 Z;
-      M2,-6 A8,8 0 1,1 2,6 L0,0 Z;
-      M0,-8 A8,8 0 1,1 0,8 L0,0 Z
-      " />
-    <animateMotion dur="12s" repeatCount="indefinite" path="${path}" />
-  </path>
+    M 20 100 H 250
+    M 250 100 V 140
+    M 250 140 H 700
+    M 700 140 V 100
+    M 700 100 H 900
   `;
 
-  // 👻 Ghost with eye animation
+  // 🟡 MOVEMENT PATH (clean continuous)
+  const path = `
+    M 20 40
+    H 300
+    V 80
+    H 600
+    V 40
+    H 900
+    V 100
+    H 250
+    V 140
+    H 700
+    V 100
+    H 900
+  `;
+
+  // 🟡 Pacman
+  const pacman = `
+    <circle r="8" fill="yellow">
+      <animateMotion dur="12s" repeatCount="indefinite" path="${path}" />
+    </circle>
+  `;
+
+  // 👻 Ghost
   function ghost(color, delay) {
     return `
-    <g>
       <circle r="8" fill="${color}">
         <animateMotion dur="12s" repeatCount="indefinite"
           path="${path}" begin="${delay}s"/>
       </circle>
-
-      <!-- Eyes -->
-      <circle r="2" fill="white" cx="-2" cy="-2">
-        <animate attributeName="cx" values="-2;0;-2" dur="1s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="2" fill="white" cx="2" cy="-2">
-        <animate attributeName="cx" values="2;4;2" dur="1s" repeatCount="indefinite"/>
-      </circle>
-    </g>
     `;
   }
 
   const svg = `
 <svg width="1000" height="200" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="100%" height="100%" fill="#0d1117"/>
+  <rect width="100%" height="100%" fill="#020617"/>
 
-  <!-- Contribution grid -->
+  <!-- Grid -->
   <g transform="translate(20,20)">
     ${rects}
   </g>
 
-  <!-- Maze path -->
-  <path d="${path}" stroke="#ffffff22" fill="none"/>
+  <!-- Maze walls -->
+  <path d="${maze}" stroke="#22d3ee" stroke-width="2" fill="none"/>
 
   <!-- Pacman -->
   ${pacman}
 
   <!-- Ghosts -->
-  ${ghost("red", 2)}
-  ${ghost("cyan", 4)}
-  ${ghost("pink", 6)}
+  ${ghost("#3b82f6", 2)}
+  ${ghost("#3b82f6", 4)}
+  ${ghost("#3b82f6", 6)}
 
 </svg>
 `;
