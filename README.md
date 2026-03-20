@@ -67,12 +67,6 @@
 
 ###
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Kiran-Kapikad/Kiran-Kapikad/output/pacman.svg">
-</div>
-
-###
-
 <br clear="both">
 
 <div align="center">
