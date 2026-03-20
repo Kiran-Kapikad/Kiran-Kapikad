@@ -1,28 +1,24 @@
-name: Generate Pacman Contribution Graph
+name: Generate Pacman Graph
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
-  generate:
-    permissions:
-      contents: write
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Pacman Graph
-        uses: Platane/snk@v3
+      - name: Generate Pacman contribution graph
+        uses: Abhi1693/github-contribution-graph-pacman@main
         with:
-          github_user_name: Kiran-Kapikad
-          outputs: |
-            dist/pacman-contribution-graph.svg
+          username: Kiran-Kapikad
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
